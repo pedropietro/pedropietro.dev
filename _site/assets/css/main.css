@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-5a9c68d/base.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-5a9c68d/components.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-5a9c68d/utilities.min.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+body a,
+html a {
+  outline: none;
+}
+body #image,
+html #image {
+  transition: all 0.5s ease;
+  background-position: center;
+}
+body #image:hover,
+html #image:hover {
+  transform: scale(1.05);
+}
+body #image ::after,
+html #image ::after {
+  background-color: black;
+}
+body .links,
+html .links {
+  transition: all ease 0.25s;
+  text-shadow: 0 0.05rem 0.25rem rgba(0, 0, 0, 0.05);
+}
+body .links:hover,
+html .links:hover {
+  transform: scale(1.05);
+}
+body .links:hover,
+html .links:hover {
+  text-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+body .links .fa-hand-paper,
+html .links .fa-hand-paper {
+  -moz-transform: scale(-1, 1) rotate(45deg);
+  -webkit-transform: scale(-1, 1) rotate(45deg);
+  -o-transform: scale(-1, 1) rotate(45deg);
+  -ms-transform: scale(-1, 1) rotate(45deg);
+  transform: scale(-1, 1) rotate(45deg);
+}
+body .links #link-content,
+html .links #link-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
