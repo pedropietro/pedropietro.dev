@@ -4,6 +4,7 @@
   "description": "A Beautiful Jekyll Theme For Links",
   "main": "postcss.config.js",
   "dependencies": {
+    "dappling-analytics": "^1.2.3",
     "jekyll": "^3.0.0-beta1"
   },
   "devDependencies": {
