@@ -164,13 +164,23 @@ links:
     Text_Color: '#000000'
     Icon-Class: fab fa-steam
 
-   # DISCORD
-  - Name: Discord
-    URL: 'https://discord.gg'
-    Username: pedropietro 
-    Icon-Class: fab fa-discord
+   # 
+
+   # MASTODON
+  - Name: Mastodon
+    URL: 'https://mastodon.social'
+    Username: '@pedropietro' 
+    Icon-Class: fab fa-twitter
     Color: '#5865F2'
     Text_Color: '#ffffff'
+
+#   # DISCORD
+#  - Name: Discord
+#    URL: 'https://discord.gg'
+#    Username: pedropietro 
+#    Icon-Class: fab fa-discord
+#    Color: '#5865F2'
+#    Text_Color: '#ffffff'
 
     # PINTEREST
 #  - Name: Pinterest
