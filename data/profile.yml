@@ -1,0 +1,116 @@
+name: Pedro Pietroluongo
+tagline: "Thelemita, Professor de Tarô de Thoth, Arquiteto de Sistemas Java, Cultista de Zos Kia, Nadador de Águas Abertas, Libertário, Pesquisador do Incrível, Incitador de Rebeliões Pessoais."
+image_url: https://github.com/pedropietro.png
+cover_image: https://picsum.photos/1080?nocache=
+github_username: pedropietro
+footer: false
+links:
+  - name: Facebook
+    url: https://www.facebook.com
+    username: pedro.pietroluongo
+    color: "#3b5998"
+    icon_class: fab fa-facebook
+  - name: Instagram
+    url: https://www.instagram.com
+    username: pedropietroluongo
+    color: "#DD2A7B"
+    icon_class: fab fa-instagram
+  - name: Twitter
+    url: https://twitter.com
+    username: pedropietro
+    color: "#1DA1F2"
+    icon_class: fab fa-twitter
+  - name: Threads
+    url: https://threads.net/
+    username: pedropietroluongo
+    color: "#000000"
+    icon_class: fa-solid fa-at
+    text_color: "#ffffff"
+  - name: LinkedIn
+    url: https://www.linkedin.com/in
+    username: pedro.pietroluongo
+    color: "#2867B2"
+    icon_class: fab fa-linkedin-in
+  - name: GitHub
+    url: http://github.com
+    username: pedropietro
+    color: "#000000"
+    icon_class: fab fa-github
+  - name: Email
+    url: "mailto:pedropietro@gmail.com"
+    icon_class: fas fa-envelope
+    color: "#e17055"
+    text_color: "#ffffff"
+  - name: Twitch
+    url: https://twitch.tv
+    username: PedroPietroluongo
+    icon_class: fab fa-twitch
+    color: "#9147fe"
+    text_color: "#ffffff"
+  - name: Messenger
+    url: https://m.me
+    username: pedro.pietroluongo
+    color: "#006AFF"
+    icon_class: fab fa-facebook-messenger
+  - name: Reddit
+    url: http://reddit.com/u
+    username: ppietroluongo
+    color: "#FF4500"
+    icon_class: fab fa-reddit-alien
+  - name: Telegram
+    url: http://telegram.me
+    username: pedropietro
+    color: "#0088cc"
+    icon_class: fab fa-telegram-plane
+  - name: Steam
+    url: https://steamcommunity.com/id
+    username: pedropietroluongo
+    color: "#66c0f4"
+    text_color: "#000000"
+    icon_class: fab fa-steam
+  - name: Mastodon
+    url: https://mastodon.social
+    username: "@pedropietro"
+    icon_class: fab fa-mastodon
+    color: "#5865F2"
+    text_color: "#ffffff"
+  - name: KO-FI
+    url: https://ko-fi.com
+    username: pedropietro
+    icon_class: fas fa-mug-hot
+    color: "#FFDD00"
+    text_color: "#000000"
+  - name: Spotify
+    url: http://open.spotify.com/user
+    username: 0JQ5DAt0tbjZptfcdMSKl3
+    color: "#1DB954"
+    icon_class: fab fa-spotify
+  - name: BlueSky
+    url: https://bsky.app/profile
+    username: pedropietro.bsky.social
+    icon_class: fa-brands fa-bluesky
+    color: "#00aff0"
+    text_color: "#ffffff"
+  - name: Medium
+    url: https://medium.com
+    username: "@pedropietro"
+    icon_class: fab fa-medium-m
+    color: "#000000"
+    text_color: "#ffffff"
+  - name: Dev.to
+    url: https://dev.to
+    username: pedropietro
+    icon_class: fab fa-dev
+    color: "#ffffff"
+    text_color: "#000000"
+  - name: BuyMeACoffee
+    url: https://buymeacoffee.com
+    username: pedropietro
+    icon_class: fas fa-mug-hot
+    color: "#FFDD00"
+    text_color: "#000000"
+  - name: About.Me
+    url: https://about.me/pedropietro
+    icon_class: fas fa-link
+    color: "#d94869"
+    text_color: "#ffffff"

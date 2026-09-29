@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+    <meta name="description" content="{cdi:profile.tagline}">
+    <meta content="#000000" name="theme-color"/>
+    <title>{page.title ?: cdi:profile.name} | Links</title>
+    <link rel="shortcut icon" href="https://images.weserv.nl/?url={cdi:profile.image_url}&h=300&w=300&fit=cover&mask=circle&l=9&output=webp&q=63" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black text-white">
+<div class="mx-auto my-auto w-screen">
+    <div class="grid place-content-center min-w-full min-h-full py-10 px-7 my-auto min-h-screen absolute z-0">
+        <div class="bg-black h-full min-w-full absolute z-10"
+             style="background-image: url({cdi:profile.cover_image}); filter: blur(15px); background-position: center; background-size: cover;"></div>
+        <div class="bg-black h-full w-full absolute z-20 opacity-60"></div>
+        <span class="text-center z-30">
+            {#insert /}
+        </span>
+    </div>
+</div>
+</body>
+</html>
