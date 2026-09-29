@@ -80,11 +80,11 @@ links:
     icon_class: fas fa-mug-hot
     color: "#FFDD00"
     text_color: "#000000"
-  - name: Spotify
-    url: http://open.spotify.com/user
-    username: 0JQ5DAt0tbjZptfcdMSKl3
-    color: "#1DB954"
-    icon_class: fab fa-spotify
+  - name: Discord
+    url: https://discord.com/users/272430151092928513
+    color: "#5865F2"
+    icon_class: fab fa-discord
+    text_color: "#ffffff"
   - name: BlueSky
     url: https://bsky.app/profile
     username: pedropietro.bsky.social
