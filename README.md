@@ -50,7 +50,15 @@ Editar `data/profile.yml`. Cada entrada aceita `name`, `url`, `username` (opcion
 
 ## Deploy
 
-Publicar conteúdo de `target/roq/` em qualquer host estático (GitHub Pages, Netlify, S3 etc).
+GitHub Pages via GitHub Actions ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)), conforme
+[docs do Roq](https://iamroq.dev/docs/publishing/):
+
+- Push em `main` (ou execução manual/agendada diária) roda `quarkiverse/quarkus-roq` (JDK 25), gera `target/roq/` e
+  publica com `actions/deploy-pages`.
+- Em **Settings > Pages**: *Source* = **GitHub Actions**, *Custom domain* = `pedropietro.dev`.
+- `public/CNAME` vai para a raiz do site gerado.
+- DNS do apex `pedropietro.dev`: registros `A` para `185.199.108.153`, `185.199.109.153`, `185.199.110.153` e
+  `185.199.111.153`; `www` como `CNAME` para `pedropietro.github.io`.
 
 ## Licença
 
